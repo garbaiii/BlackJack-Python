@@ -166,9 +166,9 @@ if i == 1:
                         time.sleep(1)
                         huzott = huzas()
                         oszto.append(huzott)
-                        osztoertek = sum(oszto)  # Update after drawing
-                    check()  # Final check when dealer >= 17
-                    break  # EXIT THE MAIN LOOP after standing
+                        osztoertek = sum(oszto)
+                    check()
+                    break
         elif tet > penz:
             os.system('cls')
 
